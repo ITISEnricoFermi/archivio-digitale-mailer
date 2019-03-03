@@ -12,4 +12,4 @@ services:
       - "PASSWORD=??????????????"
       - "SERVER=smtp.ionos.com"
       - "SECURE=true"
-      - "FROM=me@riccardosangiorgio.com"
+      - "FROM=Archivio Digitale <me@riccardosangiorgio.com>"
