@@ -11,5 +11,5 @@ services:
       - "USER=me@riccardosangiorgio.com"
       - "PASSWORD=??????????????"
       - "SERVER=smtp.ionos.com"
-      - "SECURE=true"
       - "FROM=Archivio Digitale <me@riccardosangiorgio.com>"
+      - "SECURE=true"
