@@ -13,3 +13,4 @@ services:
       - "SERVER=smtp.ionos.com"
       - "FROM=Archivio Digitale <me@riccardosangiorgio.com>"
       - "SECURE=true"
+
