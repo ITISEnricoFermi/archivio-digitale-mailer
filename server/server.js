@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const mailer = require("./lib/mailer");
-const { main } = require("archivio-fermi-mail");
+const { main } = require("archivio-digitale-mail");
 
 // VARS
 const port = process.env.API_PORT || 3000;
