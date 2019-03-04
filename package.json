@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Richard1984/archivio-fermi-mailer.git"
+    "url": "git+https://github.com/ITISEnricoFermi/archivio-digitale-mailer.git"
   },
   "author": "Riccardo Sangiorgio <richard.sangiorgio@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Richard1984/archivio-fermi-mailer/issues"
+    "url": "https://github.com/ITISEnricoFermi/archivio-digitale-mailer/issues"
   },
-  "homepage": "https://github.com/Richard1984/archivio-fermi-mailer#readme",
+  "homepage": "https://github.com/ITISEnricoFermi/archivio-digitale-mailer#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
