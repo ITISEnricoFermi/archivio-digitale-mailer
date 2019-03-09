@@ -17,7 +17,7 @@ const transporter = nodemailer.createTransport({
 })
 
 module.exports = (to, subject, message) => transporter.sendMail({
-  from: FROM,
+  from: `Archivio Digitale <${FROM}>`,
   to,
   subject,
   html: message
