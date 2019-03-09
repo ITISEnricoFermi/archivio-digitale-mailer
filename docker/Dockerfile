@@ -11,5 +11,5 @@ COPY --from=base /usr/app/node_modules node_modules
 COPY . .
 ENV API_PORT=80
 EXPOSE 80
-CMD ["./docker/startup.sh"]
+CMD ["/bin/bash", "./docker/startup.sh"]
 
