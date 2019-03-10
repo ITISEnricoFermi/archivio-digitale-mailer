@@ -9,7 +9,9 @@ WORKDIR /usr/app
 RUN apk add bash
 COPY --from=base /usr/app/node_modules node_modules
 COPY . .
-ENV API_PORT=80
+ENV API_PORT=80 \
+    NODE_ENV=production
+
 EXPOSE 80
 CMD ["/bin/bash", "./docker/startup.sh"]
 
