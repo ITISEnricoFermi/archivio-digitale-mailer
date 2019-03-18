@@ -12,8 +12,6 @@ COPY . .
 ENV API_PORT=80 \
     NODE_ENV=production \
     PORT=465 \
-    USER=user \
-    PASSWORD=password \
     SERVER=smtp.example.com \
     FROM=me@example.com \
     SECURE=true
