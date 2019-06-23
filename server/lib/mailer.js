@@ -6,7 +6,8 @@ const transporter = nodemailer.createTransport({
   pool: true,
   host: SERVER,
   port: PORT || 587,
-  secure: Boolean(SECURE) || false,
+  //secure: Boolean(SECURE) || false,
+  secure: false,
   auth: {
     user: USER,
     pass: PASSWORD
