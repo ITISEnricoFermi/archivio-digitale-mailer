@@ -23,7 +23,7 @@
     "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "mustache": "^3.0.1",
-    "nodemailer": "^6.2.1"
+    "nodemailer": "^6.3.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
