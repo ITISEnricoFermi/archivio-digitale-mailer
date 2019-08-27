@@ -20,7 +20,7 @@
   "dependencies": {
     "archivio-digitale-mail": "git+https://github.com/ITISEnricoFermi/archivio-digitale-mail.git",
     "body-parser": "^1.18.3",
-    "dotenv": "^8.0.0",
+    "dotenv": "^8.1.0",
     "express": "^4.16.4",
     "mustache": "^3.0.1",
     "nodemailer": "^6.3.0"
